@@ -37,7 +37,7 @@ print("\n Melbourne Features  Data \n", X.head())
 ##
 
 # Define model
-melbourne_model = DecisionTreeRegressor( random_state=1)
+melbourne_model = DecisionTreeRegressor(random_state=1)
 
 # Fit the model
 melbourne_model.fit(X, y)
